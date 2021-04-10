@@ -1,0 +1,88 @@
+/* FUN */
+p.a{
+    color:coral;
+}
+
+p.b{
+    color:cornflowerblue;
+}
+
+body {
+    background-color:beige;
+}
+
+/* NAVIGATION */
+nav.menu-nav ul li.btn{
+    list-style-type: none;
+}
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+    text-decoration: none;
+    color:whitesmoke;
+    background-color: teal;
+    padding: 10px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color:teal;
+    background-color: whitesmoke;
+    transition: 0.3s;
+}
+
+/* HEADER */
+header img{
+    max-width: 15%;
+}
+
+header{
+    background-color: turquoise;
+}
+
+/* FOOTER */
+footer{
+    background-color: violet;
+}
+
+/* DIVISION */
+
+div#content div.annonce{
+    background-color: indianred;
+    width:100%;
+    margin: 10px;
+}
+
+div#content div{
+    display:inline-block;
+    width: 48%;
+}
+div#content div.leftbox{
+    background-color: yellowgreen;
+    vertical-align:top;
+}
+
+div#content div.rightbox{
+    background-color: goldenrod;
+}
+
+div#content div.leftbox h1, p{
+    margin: 5px;
+}
+
+div#content div h1, p{
+    margin: 35px;
+
+}
+
+/* LA PLUS GRANDE DES DIV */
+div#content{
+    background-color: grey;
+}
+
+div.annonce img{
+    border-radius: 50px;
+    height: 160px;
+}
