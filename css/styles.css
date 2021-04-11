@@ -11,6 +11,10 @@ body {
     background-color:beige;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* NAVIGATION */
 nav.menu-nav ul li.btn{
     list-style-type: none;
